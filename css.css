@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column; /* Organise les éléments en colonne */
+    background-color: rgb(27, 26, 26);
+}
+ /* Ajoute de l'espace entre les deux divs */
+.titrePage {
+    margin-top: 40px;
+    font-size: 170%;
+}
+/* Style de base pour le bouton */
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #fff; /* Couleur de fond initiale */
+    color: #007bff; /* Couleur du texte */
+    border: 2px solid #007bff; /* Bordure */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Transition fluide */
+}
+/* Style lorsque le bouton est survolé */
+button:hover {
+    background-color: #007bff; /* Nouvelle couleur de fond au survol */
+    color: #fff; /* Nouvelle couleur du texte au survol */
+}
+.infoUsername,
+.infoPassword{
+    font-size: 130%;
+}
+/* Style pour centrer les conteneurs des boutons */
+.titrePage,
+.infoUsername,
+.infoPassword,
+.infoUser,
+button {
+    margin-bottom: 20px;
+    color: rgb(198, 216, 231);
+    background-color: rgb(27, 26, 26);
+}
+#errorMessage{
+    margin-bottom: 40px;
+    color: rgb(158, 47, 47);
+    background-color: rgb(27, 26, 26);
+}
+/* Style pour les champs de texte */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+/* Style lorsque les champs de texte sont survolés ou actifs */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+/* Style lorsque les champs de texte sont survolés */
+input[type="text"]:hover,
+input[type="password"]:hover {
+    border-color: #007bff;
+}
+.graphDiv{
+    margin-bottom: 10px;
+    color: rgb(198, 216, 231);
+    background-color: rgb(27, 26, 26);
+    font-size: 120%;
+}
+/*
+hover ---> quand la souris se trouve au dessus de l'élèment
+focus ----> quand la souris à cliquer sur l'élèment ou qu'on la survole
+Ici on a récupèrer les inputs et on dit que si un élèment de type text ou password est survolé,
+alors les bords de celui ci devienne bleu
+*/
