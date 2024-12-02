@@ -1,0 +1,16 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "Projet GraphQL basique",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Toufik",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^6.0.2"
+  }
+}

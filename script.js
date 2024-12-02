@@ -1,3 +1,5 @@
+//https://thimoum.github.io./pour le lien github
+
 const urlAutotification = "https://zone01normandie.org/api/auth/signin";
 const urlGraph = "https://zone01normandie.org/api/graphql-engine/v1/graphql";
 let infoUser;//Contient les infos de l'utilisateur 
